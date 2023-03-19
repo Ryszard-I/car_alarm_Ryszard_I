@@ -1,0 +1,16 @@
+{
+    "bmw_car_alarm_sound_Ryszard_I": {
+        "information":{
+            "authors":"Ryszard_I",
+            "name":"BMW",
+            "value":1000,
+        },
+        "slotType" : "car_alarm_sound_Ryszard_I",
+        "soundscape": [
+            ["name", "src"],
+            ["car_alarm_alert", "art/sound/bmw/car_alarm_alert"],
+            ["car_alarm_lock", "art/sound/bmw/car_alarm_lock"],
+            ["car_alarm_unlock", "art/sound/bmw/car_alarm_unlock"]
+        ],
+    }
+}

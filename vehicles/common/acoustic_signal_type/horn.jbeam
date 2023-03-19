@@ -1,0 +1,15 @@
+{
+    "horn_car_alarm_Ryszard_I": {
+        "information":{
+            "authors":"Ryszard_I",
+            "name":"Horn only",
+            "value":1000,
+        },
+        "slotType" : "1car_alarm_type_Ryszard_I",
+        "variables": [
+            ["name", "type", "unit", "category", "default", "min", "max", "title", "description"]
+            ["$horn", "range", " ", "Car Alarm Ryszard_I", 1, 0, 1, "Horn", "If equal to 1 - horn is used for acoustic signals" {"stepDis":1}],
+            ["$siren", "range", " ", "Car Alarm Ryszard_I", 0, 0, 1, "Siren", "If equal to 1 - siren is used for acoustic signals" {"stepDis":1}],
+        ],
+    }
+}

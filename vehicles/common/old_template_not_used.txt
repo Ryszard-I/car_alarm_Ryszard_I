@@ -1,0 +1,18 @@
+{
+    "template_car_alarm_Ryszard_I": {
+        "information":{
+            "authors":"Ryszard_I",
+            "name":"Ryszard_I's Car Alarm",
+            "value":1000,
+        }
+        "slotType" : "template_mod",
+        "slots": [
+            ["type", "default", "description"],
+            ["car_alarm_Ryszard_I",	"car_alarm_Ryszard_I", 	"Car Alarm"],
+        ],
+        "controller": [
+            ["fileName"],
+            ["car_alarm_Ryszard_I"],
+        ],
+    },
+}

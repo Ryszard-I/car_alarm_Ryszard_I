@@ -1,0 +1,4 @@
+{
+"toggle_car_alarm"       :{"cat":"vehicle", "order": 200, "ctx": "tlua", "onDown"  :"scripts_car__alarm__Ryszard__I_extension.toggle()", "title": "Toggle car alarm", "desc": "Turns on or off vehicle alarm"},
+"test_button"       :{"cat":"general", "order": 200, "ctx": "tlua", "onDown"  :"scripts_car__alarm__Ryszard__I_extension.test()", "title": "Toggle test code", "desc": "Turns on test code"}
+}

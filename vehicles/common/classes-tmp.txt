@@ -1,0 +1,21 @@
+{
+    "burglar_alarm_siren_2_horn_salim": {
+        "information":{
+            "authors":"S.Ali.M",
+            "name":"Siren 2 + Horn",
+            "value":0,
+        },
+        "slotType" : "1burglar_alarm_sound_salim",
+        "variables": [
+            ["name", "type", "unit", "category", "default", "min", "max", "title", "description"]
+            ["$1burglar_alarm_horn_t_salim", "range", "sec", "Burglar Alarm System", 0.2, 0.1, 1, "Honking Time", "How long the alarm honks in seconds" {"stepDis":0.05}]
+            ["$2burglar_alarm_horn_f_salim", "range", "sec", "Burglar Alarm System", 0.3, 0.2, 1, "Waiting Time", "How long the alarm waits between each honking in seconds" {"stepDis":0.05}]
+            ["$3burglar_alarm_volume_salim", "range", "x", "Burglar Alarm System", 2, 0.5, 10, "Siren Volume", "" {"stepDis":0.5}]
+        ],
+        "soundscape": [
+            ["name", "src"],
+            ["burglar_alarm_sound_salim", "vehicles/common/burglar_alarm_system_salim/siren2"],
+            ["burglar_alarm_horn_salim", "vehicles/common/burglar_alarm_system_salim/nothing"],
+        ],
+    },
+}

@@ -1,0 +1,18 @@
+{
+    "standard_car_alarm_Ryszard_I": {
+        "information":{
+            "authors":"Ryszard_I",
+            "name":"Standard",
+            "value":1000,
+        },
+        "slotType" : "2car_alarm_class_Ryszard_I",
+        "variables": [
+            ["name", "type", "unit", "category", "default", "min", "max", "title", "description"]
+            ["$sensor_sensitivity", "range", " ", "Car Alarm Ryszard_I", 2, 1, 10, "Sensitivity", "The lower the value, the more sensitive the sensors are" {"stepDis":1}]
+        ],
+        "soundscape": [
+            ["name", "src"],
+            ["central_lock", "art/sound/toyota/central_lock"],
+        ]
+    }
+}
